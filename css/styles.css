@@ -1,0 +1,332 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+/* Nav  */
+
+
+.headerarea .mainmenu .navbar .navbar-brand {
+    padding: 0.2rem 0.5rem;
+}
+
+.headerarea .mainmenu .navbar {
+    padding: 1rem 10rem;
+}
+
+.headerarea .mainmenu .nav-item .nav-link {
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1.7rem;
+    color: black;
+}
+
+
+.page-wrapper {
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none; 
+    color: black; 
+}
+
+
+/* Title Section  */
+
+.titlecontainer {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+
+
+
+
+
+/* About us Section  */
+
+
+.aboutus {
+    padding-bottom: 2%;
+}
+
+
+
+.aboutuscontainer {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.txtcontainer {
+    padding-top: 3%;
+}
+
+
+.aboutimg {
+    width: 450px;
+    height: 400px;
+}
+
+
+
+/* Our Team  */
+
+.card {
+    text-align: center;
+}
+
+.teamcontainer {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+
+.teamcontainer h3 {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+
+
+/* FOOTER  */
+
+
+
+.footer-content {
+    padding: 0% 5%;
+}
+
+.contleft {
+    padding-left: 10%;
+}
+
+
+
+.footer-section {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.links {
+    padding-top: 2%;
+    padding-left: 10%;
+}
+
+.contact-formm {
+     padding-top: 2%;
+    }
+
+.contact-input {
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+  padding: .9rem 1.4rem;
+  border: black 1px thin;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact-btn {
+    float: right;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.icons {
+    color: black;
+}
+
+
+
+
+
+
+
+.aboutourteam,
+.ourmission,
+.overview {
+    text-align: center;
+    padding: 2% 10%;
+}
+
+.teamcontainer {
+    text-align: center;
+}
+
+
+.teambtn {
+    text-align: center;
+}
+
+
+.indexprofiles {
+    margin: 15px;
+}
+
+.card {
+    margin: 15px;
+}
+
+/* Contact page  */
+
+.contactpage {
+    margin: 0;
+    padding: 0%;
+
+}
+
+.contact-section {
+    background: url(/images/bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: white;
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: white;
+    margin: 40px auto;
+}
+
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background:white ;
+    padding: 20px 40px;
+    outline: none;
+    color: grey;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn { 
+    float: right;
+    border: 0;
+    background: white;
+    color: black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+    background: grey;
+}
+
+
+
+
+/* Services */
+
+.container-service1 {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.service1img {
+padding-bottom: 30px;
+}
+
+.service1txt {
+    margin: 0 15%;
+}
+
+.border1 {
+    width: 100px;
+    height: 2px;
+    background: black;
+    margin: 5px auto;
+       
+}
+
+.services-btn {
+    margin-top: 20px;
+}
+
+
+
+
+
+/* The Team  */
+
+.ourteamprofile {
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.profileimg {
+    border-radius: 100%;
+}
+
+.profilecon {
+    margin: 0 50px;
+}
+
+.imgcontainer {
+    padding: 5%
+}
+
+
+.profilename {
+    margin-top: 50px;
+}
+
+.border2 {
+    width: 100px;
+    height: 2px;
+    background: black;
+    margin: auto;
+}
+
+.profilename {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.imgcontainer2 {
+    padding: 5% 25%;
+}
+
+
+.services-btn2 {
+    margin-top: 5px;
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .txtcontainer {
+        text-align: center;
+    }
+
+    
+}
